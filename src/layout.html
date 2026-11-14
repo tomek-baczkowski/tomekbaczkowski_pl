@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{DESC}}">
+<link rel="canonical" href="{{CANONICAL}}">
+{{ROBOTS}}
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:title" content="{{TITLE}}">
+<meta property="og:description" content="{{DESC}}">
+<meta property="og:url" content="{{CANONICAL}}">
+<meta property="og:image" content="{{OG_IMAGE}}">
+<meta name="theme-color" content="#0E1013">
+<link rel="icon" href="{{R}}img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="{{R}}fonts/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{R}}css/style.css">
+{{JSONLD}}
+</head>
+<body>
+
+<!-- Kształty z logo: całe logo, duża gwiazda z ogonem, mała gwiazda. Wszystkie ozdobniki strony biorą się stąd. -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="logo" viewBox="190 146 510 556">
+      <path fill-rule="evenodd" d="M197.9,366.7A211.5,211.5 0 1 0 620.9,366.7A211.5,211.5 0 1 0 197.9,366.7ZM467,201L501,364C516,381 531,398 541,412C551,426 562,446 566,468C567,481 566,493 565,505C563,496 560,489 557,482C552,474 546,468 539,463C530,456 521,451 511,447C498,441 484,436 470,432L314,504L381,403L226,341L359,319L292,210L430,309Z"/>
+      <path d="M564,511L608,564L688,548L632,603L662,683L601,627L559,691L562,611L474,601L564,573Z"/>
+    </symbol>
+    <symbol id="star-big" viewBox="220 195 352 316">
+      <path d="M467,201L501,364C516,381 531,398 541,412C551,426 562,446 566,468C567,481 566,493 565,505C563,496 560,489 557,482C552,474 546,468 539,463C530,456 521,451 511,447C498,441 484,436 470,432L314,504L381,403L226,341L359,319L292,210L430,309Z"/>
+    </symbol>
+    <symbol id="star" viewBox="470 507 222 188">
+      <path d="M564,511L608,564L688,548L632,603L662,683L601,627L559,691L562,611L474,601L564,573Z"/>
+    </symbol>
+  </defs>
+</svg>
+
+<a class="skip" href="#tresc">Przejdź do treści</a>
+
+<header class="header">
+  <div class="wrap header__in">
+    <a class="brand" href="{{R}}./" aria-label="Tomasz Bączkowski – strona główna">
+      <svg aria-hidden="true"><use href="#logo"/></svg>
+      <span>Tomasz Bączkowski</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav" aria-label="Główne">
+      <ul class="nav__list">
+        <li><a href="{{R}}skuteczny-aftersales/" data-nav="skuteczny-aftersales/">Skuteczny Aftersales</a></li>
+        <li><a href="{{R}}dla-firm/" data-nav="dla-firm/">Dla firm</a></li>
+        <li><a href="{{R}}kariera/" data-nav="kariera/">Kariera</a></li>
+        <li><a href="{{R}}projekty/" data-nav="projekty/">Projekty</a></li>
+        <li><a href="{{R}}turystyka/" data-nav="turystyka/">Turystyka</a></li>
+        <li><a href="{{R}}o-mnie/" data-nav="o-mnie/">O mnie</a></li>
+      </ul>
+      <a class="btn btn--primary" href="{{R}}kontakt/">Kontakt</a>
+    </nav>
+  </div>
+</header>
+
+<main id="tresc">
+{{CONTENT}}
+</main>
+
+<footer class="footer">
+  <div class="section__bg" style="background-image:url('{{R}}img/tlo-noc-w-drodze.webp')"></div>
+  <div class="wrap">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a class="brand" href="{{R}}./"><svg aria-hidden="true"><use href="#logo"/></svg><span>Tomasz Bączkowski</span></a>
+        <p>Układam procesy w serwisach maszyn budowlanych, rolniczych i wózków widłowych.</p>
+        <p><a href="tel:+48731550393">731 550 393</a> · <a href="mailto:tomek.baczkowski@gmail.com">tomek.baczkowski@gmail.com</a></p>
+      </div>
+      <nav aria-label="Strony">
+        <h2>Strona</h2>
+        <ul>
+          <li><a href="{{R}}skuteczny-aftersales/">Skuteczny Aftersales</a></li>
+          <li><a href="{{R}}dla-firm/">Oferta dla firm</a></li>
+          <li><a href="{{R}}kariera/">Kariera</a></li>
+          <li><a href="{{R}}projekty/">Moje projekty</a></li>
+          <li><a href="{{R}}turystyka/">Turystyka</a></li>
+          <li><a href="{{R}}o-mnie/">O mnie</a></li>
+          <li><a href="{{R}}kontakt/">Kontakt</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Inne miejsca">
+        <h2>Gdzie indziej</h2>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/tomaszbaczkowski" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://www.youtube.com/@SkutecznyAftersales" rel="noopener">YouTube: Skuteczny Aftersales</a></li>
+          <li><a href="https://kombuczka.pl/" rel="noopener">kombuczka.pl</a></li>
+          <li><a href="https://rowerowy.komprachcice.com/" rel="noopener">Serwis rowerowy w Komprachcicach</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer__legal">
+      <span>© 2026 Tomasz Bączkowski · Kombuczka Sp. z o.o.</span>
+      <a href="{{R}}polityka-prywatnosci/">Polityka prywatności</a>
+    </div>
+  </div>
+</footer>
+
+<script src="{{R}}js/main.js" defer></script>
+</body>
+</html>
