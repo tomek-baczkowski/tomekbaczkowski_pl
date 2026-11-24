@@ -48,3 +48,10 @@ Do zrobienia przed 19.11.2026, gdy strona jest zaakceptowana:
 ## Analityka
 
 Brak. Strona nie ma formularzy ani plików cookie do śledzenia.
+
+## Analityka
+
+Google Analytics 4 (identyfikator `G-KPECM69173`, konto Google Tomka), od 24.11.2026.
+Skrypt `src/static/js/analityka.js` wczytuje GA4 dopiero po zgodzie odwiedzającego (okienko na dole strony, wybór zapamiętany w przeglądarce; link „Ustawienia statystyk” w stopce otwiera je ponownie). Kliknięcia e-mail, telefon i WhatsApp trafiają jako zdarzenia `kontakt_email`, `kontakt_telefon`, `kontakt_whatsapp`. Opis w polityce prywatności. Ten sam plik jest w repozytoriach kombuczka, rowerowy-komprachcice i tomekbaczkowski_pl – zmiany wprowadzać we wszystkich.
+
+Google Search Console: weryfikacja plikiem `src/static/google3c1a9864a3aa46fe.html` (nie usuwać), mapa witryny przesłana 24.11.2026.
